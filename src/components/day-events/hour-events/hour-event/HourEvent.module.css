@@ -1,0 +1,38 @@
+.event {
+  position: absolute;
+  top: 0;
+  height: 30px;
+  cursor: pointer;
+}
+
+.b-rad-top {
+  border-radius: 4px 4px 0 0;
+}
+
+.b-rad {
+  border-radius: 4px;
+}
+
+.b-rad-bot {
+  border-radius: 0 0 4px 4px;
+}
+
+.event-title {
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+  padding: 0px 6px;
+}
+
+.title-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.event-title span {
+  display: block;
+}

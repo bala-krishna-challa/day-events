@@ -1,0 +1,14 @@
+.day-events {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.events-box {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 20%), 0 3px 10px 0 rgb(0, 0, 0, 19%);
+  height: calc(100% - 20px);
+  overflow: auto;
+}

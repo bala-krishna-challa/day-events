@@ -1,0 +1,30 @@
+.hour-row {
+  height: 30px;
+  position: relative;
+}
+
+.hour-text {
+  position: absolute;
+  top: -5px;
+  left: -18px;
+  color: #70757a;
+  font-size: 10px;
+}
+
+.hour-body {
+  border-top: #dadce0 1px solid;
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  top: 0px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.hour-full-height {
+  height: 100%;
+}
+
+.hour-no-height {
+  height: 0%;
+}
